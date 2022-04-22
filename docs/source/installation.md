@@ -1,23 +1,23 @@
 Installation
 ============
 
-**my-package** supports Python >= 3.7.
+**pynuclino** supports Python >= 3.7.
 
 ## Installing with `pip`
 
-**my-package** is available [on PyPI](https://pypi.org/project/my-package/). Just run
+**pynuclino** is available [on PyPI](https://pypi.org/project/pynuclino/). Just run
 
 ```bash
-pip install my-package
+pip install pynuclino
 ```
 
 ## Installing from source
 
-To install **my-package** from source, first clone [the repository](https://github.com/allenai/python-package-template):
+To install **pynuclino** from source, first clone [the repository](https://github.com/Tomperez98/pynuclino):
 
 ```bash
-git clone https://github.com/allenai/python-package-template.git
-cd python-package-template
+git clone https://github.com/Tomperez98/pynuclino.git
+cd pynuclino
 ```
 
 Then run
