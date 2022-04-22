@@ -8,7 +8,8 @@ def read_requirements(filename: str):
         def fix_url_dependencies(req: str) -> str:
             """Pip and setuptools disagree about how URL dependencies should be handled."""
             m = re.match(
-                r"^(git\+)?(https|ssh)://(git@)?github\.com/([\w-]+)/(?P<name>[\w-]+)\.git", req
+                r"^(git\+)?(https|ssh)://(git@)?github\.com/([\w-]+)/(?P<name>[\w-]+)\.git",
+                req,
             )
             if m is None:
                 return req
